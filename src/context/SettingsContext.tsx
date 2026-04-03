@@ -16,6 +16,7 @@ const defaultSettings: PublicSettingsResponse = {
   hideBlocklisted: false,
   localLogin: true,
   mediaServerLogin: true,
+  oidcLogin: false,
   movie4kEnabled: false,
   series4kEnabled: false,
   discoverRegion: '',
