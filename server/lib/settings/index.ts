@@ -216,6 +216,7 @@ interface FullPublicSettings extends PublicSettings {
   hideBlocklisted: boolean;
   localLogin: boolean;
   mediaServerLogin: boolean;
+  oidcLogin: boolean;
   movie4kEnabled: boolean;
   series4kEnabled: boolean;
   discoverRegion: string;
@@ -499,6 +500,7 @@ class Settings {
       hideBlocklisted: this.data.main.hideBlocklisted,
       localLogin: this.data.main.localLogin,
       mediaServerLogin: this.data.main.mediaServerLogin,
+      oidcLogin: this.data.main.oidcLogin,
       jellyfinExternalHost: this.data.jellyfin.externalHostname,
       jellyfinForgotPasswordUrl: this.data.jellyfin.jellyfinForgotPasswordUrl,
       movie4kEnabled: this.data.radarr.some(
